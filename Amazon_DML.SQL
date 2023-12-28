@@ -153,7 +153,7 @@ LEFT JOIN ShoppingCartItems sci ON sc.shoppingcartID = sci.shoppingcartID
 GROUP BY c.customerID
 ORDER BY avg_products_in_cart DESC;
 
-Query 19: View Orders that are still ‘Processing’
+Query 19: View Orders that are still √îProcessing√ï
 
 SELECT o.orderID, c.customer_first_name, c.customer_last_name, o.order_date, 
 o.shipping_date, o.status
